@@ -3,7 +3,7 @@ import AuthAPI from "@/api/auth";
 
 export const useUserStore = defineStore("user", {
   state: () => ({
-    user: null,
+    user: {},
   }),
 
   getters: {
